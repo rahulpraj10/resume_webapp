@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Setup
+   check out the other folders and run npm install   
+   
+   if needed
+   ng add @angular/material
+   ng add @clr/angular
+   ng add @ionic/angular@4.6.0
+   
+   npm i --save ngx-ui-loader@8.0.0   
+   npm install file-saver --save

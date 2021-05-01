@@ -1,0 +1,76 @@
+.header .branding>.nav-link, .header .branding>a, header .branding>.nav-link, header .branding>a {
+    display: inline-flex;
+    align-items: center;
+    height: 2rem;
+}
+.header-actions .nav-icon {
+    height: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    .main-container.open-hamburger-menu .clr-vertical-nav.clr-nav-level-1{
+        padding-top: 2rem !important;
+
+    }
+}
+@media screen and (max-width: 768px){
+    .clrHeader{
+        background-color: #ededed !important;
+    }
+    .branding {
+        display: none;
+    }
+    .searchInput {
+        width: 100% !important;
+        flex: 1 1 auto !important;
+    }
+    .header .header-actions{
+        flex: 0 0 auto;
+    }
+    .searchBar{
+        margin-left: 1px !important;
+    }
+    
+}
+
+/* width */
+@media screen and (max-width: 576px){
+    .main-container .header .branding {
+        max-width: 7rem;
+    }
+    
+}
+
+
+
+
+.main-container .content-container .clr-vertical-nav {
+    flex: 0 0 auto;
+    order: 1;
+}
+
+
+::ng-deep .clr-vertical-nav .nav-content{
+padding-top: 25vh !important;
+}
+
+.pfSummary {
+    display: flex;
+    background: #fafafa;
+    min-width: 270px;
+    flex-direction: column;
+    max-width: 20%;
+    // overflow: auto;
+    padding-left: 5px;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px){
+    .main-container .content-container {
+        flex-direction: column;
+    }
+    .pfSummary {
+        max-width: 100vw;
+    }
+}
